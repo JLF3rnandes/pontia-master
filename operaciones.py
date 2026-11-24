@@ -7,5 +7,5 @@ def restar(x,y):
 suma = sumar(1, 1)
 resta = restar(1, 1)
 
-print("esto es una suma", suma)
+print("Esto es una suma", suma)
 print("Esto es una resta", resta)
