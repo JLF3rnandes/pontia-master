@@ -1,0 +1,1 @@
+Este es un repo de un Master que estoy cursando sobre AI, CLoud Computing y DevOps. Aquí encontrarás proyectos, ejercicios y recursos relacionados con los temas que estamos aprendiendo en el curso. Nada interesante realmente, si hay algo que sea util, lo ire anotando o subniendo al obsidian. Enjoy it :) 
