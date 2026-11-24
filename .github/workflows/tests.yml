@@ -1,0 +1,29 @@
+# Lanza los tests de Python en cada push a main y en cada Pull Request hacia main.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar pytest
+        run: pip install pytest
+
+      # El archivo se pasa a mano porque pytest solo descubre solo
+      # los que se llaman test_*.py o *_test.py.
+      - name: Ejecutar los tests
+        run: pytest -v Testoperaciones.py
