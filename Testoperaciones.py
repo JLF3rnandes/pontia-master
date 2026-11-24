@@ -5,3 +5,7 @@ def test_sum():
     
 def test_rest():
     assert restar(2,3) == 1
+
+def test_mul():
+    assert mul(2,1) == 2
+    

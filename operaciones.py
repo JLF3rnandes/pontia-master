@@ -7,6 +7,9 @@ def mul(x, y):
 def restar(x,y):
     return x - y 
 
+def sub(x,y):
+    return y - x
+
 suma = sumar(1, 1)
 resta = restar(1, 1)
 
